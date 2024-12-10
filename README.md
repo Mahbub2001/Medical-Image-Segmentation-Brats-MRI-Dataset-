@@ -1,4 +1,4 @@
-# Medical-Image-Segmentation-Brats-MRI-Dataset-
+# Medical-Image-Segmentation-Brats-MRI-Dataset-Knowledge Distillation 
 # Teacher-Student Model Architecture
 
 This project implements a Teacher-Student model architecture, where the **Teacher Model** is a larger, more complex model that provides soft labels to train the **Student Model**. The Student Model is a smaller, more efficient model designed to mimic the Teacher Model's behavior. This approach leverages model distillation to reduce the computational complexity while retaining performance.
