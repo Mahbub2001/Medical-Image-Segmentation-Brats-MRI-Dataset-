@@ -47,7 +47,10 @@ The Teacher Model is a deep Convolutional Neural Network (CNN) that uses separab
 8. **Concatenate Layer**:
    - Merges two or more feature maps to provide richer feature representations for the next layer.
    - Example: `Concatenate(axis=-1)`
-
+9. **Params**:
+    - Total params: 8,639,778
+    - Trainable params: 8,639,778
+    - Non-trainable params: 0
 ## Student Model Architecture
 
 The Student Model is a smaller, more efficient CNN designed to learn from the Teacher Model. It follows a similar structure but uses fewer parameters to ensure fast inference without sacrificing too much performance.
@@ -84,6 +87,11 @@ The Student Model is a smaller, more efficient CNN designed to learn from the Te
 8. **Concatenate Layer**:
    - Combines feature maps from different layers to enhance feature learning.
    - Example: `Concatenate(axis=-1)`
+     
+9. **Params**:
+    - Total params: 608,589
+    - Trainable params: 605,645
+    - Non-trainable params: 2,944
 
 ## Layer Descriptions
 
